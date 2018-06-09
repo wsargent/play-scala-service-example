@@ -1,4 +1,4 @@
-package com.tersesystems.demo.akka
+package com.tersesystems.demo.greeting
 
 import akka.typed.Behavior
 import akka.typed.scaladsl.Actor

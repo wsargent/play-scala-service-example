@@ -1,6 +1,6 @@
 package com.tersesystems.demo.services
 
-import com.tersesystems.demo.chatroom.GreetingService
+import com.tersesystems.demo.greeting.GreetingService
 
 trait ServicesModule {
   import com.softwaremill.macwire._

@@ -1,4 +1,4 @@
-package com.tersesystems.demo.chatroom
+package com.tersesystems.demo.greeting
 
 import com.tersesystems.demo.services.ServicesModule
 import play.api.i18n.Langs

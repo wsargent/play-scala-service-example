@@ -1,4 +1,4 @@
-package com.tersesystems.demo.chatroom
+package com.tersesystems.demo.greeting
 
 import play.api.i18n.Langs
 import play.api.libs.json.Json
@@ -8,6 +8,8 @@ import play.twirl.api.Html
 class GreeterController(greetingService: GreetingService,
                         langs: Langs,
                         cc: ControllerComponents) extends AbstractController(cc) {
+
+  private val greetingsList = Greeting(message = "hello", name = "derp")
 
   def greetings = Action {
     Ok(Json.toJson(greetingsList))

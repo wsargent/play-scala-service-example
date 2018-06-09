@@ -1,6 +1,6 @@
 package com.tersesystems.demo
 
-import com.tersesystems.demo.chatroom.GreetingModule
+import com.tersesystems.demo.greeting.GreetingModule
 import play.api.ApplicationLoader.Context
 import play.api._
 import play.api.i18n._

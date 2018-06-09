@@ -1,4 +1,4 @@
-package com.tersesystems.demo.chatroom
+package com.tersesystems.demo.greeting
 
 import play.api.libs.json._
 
